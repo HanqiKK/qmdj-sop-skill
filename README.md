@@ -69,6 +69,107 @@ The first is achievable through correct software. The second is improved by this
 
 This project therefore treats Qimen as a cultural knowledge system and structured reflection framework—not as scientifically validated proof of future events or hidden mental states.
 
+## What problems can this Skill help with?
+
+This Skill is best for a **specific situation, decision, or event within a defined time window**. You do not need to understand Qi Men Dun Jia terminology before using it.
+
+Good use cases include:
+
+- assessing how a near-term meeting, interview, review, launch, negotiation, or trip may unfold;
+- comparing two or more proposed dates, times, directions, or execution options;
+- identifying likely constraints, support, timing signals, and reversible next actions;
+- examining a stalled project, collaboration, or relationship through a structured reflection framework;
+- verifying an existing Qimen chart or auditing an interpretation for mixed schools and overclaiming;
+- comparing an earlier forecast with the observed outcome for calibration.
+
+This Skill is **not designed to produce a reliable ten-year wealth, career, marriage, or life forecast from one question-time chart**. Questions that broad lack a single observable event and a falsifiable time boundary. Traditional long-horizon destiny analysis belongs to other systems and should not be silently mixed into this Qimen workflow.
+
+Instead of asking:
+
+> “How will my wealth be over the next ten years?”
+
+Narrow it to a decision or observable period, for example:
+
+> “Over the next three months, what obstacles and opportunities should I consider before deciding whether to accept this job offer?”
+
+> “I am choosing between launching on September 10 or September 24 in Shanghai. Compare the two event times and identify execution risks.”
+
+> “Will this client negotiation reach a concrete agreement before October 31? What observable signals should change my approach?”
+
+## Quick start for first-time users
+
+Provide four things where possible:
+
+1. **The decision or event:** What exactly are you trying to decide, evaluate, or prepare for?
+2. **The time window:** By when should an observable result occur?
+3. **The options or context:** What choices, constraints, or known facts matter?
+4. **The location or timezone:** Required for event-time analysis; for question-time casting, the Skill can use the current declared timezone.
+
+You may copy one of these prompts:
+
+### Question-time analysis
+
+```text
+Use the time I am asking this question to cast and verify a Qimen chart.
+Question: [one specific question]
+Decision or observable outcome: [what I need to decide or observe]
+Time window: [date or period]
+Known facts and constraints: [brief context]
+Timezone: [for example, Asia/Shanghai]
+```
+
+### Compare event times
+
+```text
+Compare these candidate times using the same Shi Jia Qimen conventions:
+Option A: [local date, time, and location]
+Option B: [local date, time, and location]
+Goal: [meeting, launch, travel, negotiation, etc.]
+Success criteria: [observable result]
+Known constraints: [optional]
+```
+
+### Review a stalled situation
+
+```text
+Use Qimen as a structured reflection tool for this situation:
+Current situation: [observable facts only]
+What is stalled: [specific project, decision, or interaction]
+Time window: [when progress should be visible]
+Decision I need to make: [act, wait, change approach, or stop]
+```
+
+### Audit or calibrate an existing reading
+
+```text
+Audit this Qimen chart or interpretation for calculation mismatches, school mixing, and overclaiming.
+Original timestamp and timezone: [...]
+Original chart or reading: [...]
+Observed outcome, if available: [...]
+```
+
+## How broad questions are handled
+
+A broad question should not simply fail. The Skill should first convert it into a Qimen-compatible question:
+
+1. identify the underlying decision or concern;
+2. choose one observable outcome;
+3. set a practical time boundary;
+4. separate known facts from assumptions;
+5. ask for event location/time only when the selected casting mode requires it.
+
+If the question remains too broad, the Skill should offer two or three narrower formulations rather than fabricate a long-range prediction. It should also explain why the narrower question is more useful.
+
+| Too broad or ambiguous | Better Qimen-compatible question |
+|---|---|
+| “How is my ten-year wealth?” | “Should I pursue this specific income opportunity in the next 90 days, and what risks should I verify first?” |
+| “Will my career be successful?” | “What should I prepare for in the promotion review scheduled for this date and location?” |
+| “Does this person like me?” | “Is there likely to be observable reciprocal action in the next four weeks, and what evidence should guide my response?” |
+| “When should I launch?” | “Compare these two launch times for this product, location, goal, and success criterion.” |
+| “What does my future look like?” | “For this decision due by this date, what constraints, opportunities, and reversible next steps should I consider?” |
+
+A useful Qimen question is **specific, time-bounded, decision-linked, and observable**. The output remains a symbolic hypothesis and action framework—not proof or a guaranteed forecast.
+
 ## What this Skill provides
 
 - question-time, event-time, and retrospective casting modes;
@@ -146,6 +247,12 @@ Keep school-specific variants separate and document timezone, daylight-saving, Z
 - Kalinowski, Marc. “Divination and Astrology: Received Texts and Excavated Manuscripts.” In *Early Chinese Religion, Part One*. Brill, 2010.
 - Bruun, Ole. *Fengshui in China*. University of Hawaiʻi Press, 2003.
 - Peñataro Sánchez, Alejandro. *Kognitive Divinationskünste im Kaiserlichen China: das Prognosesystem Qimen Dunjia*. Freie Universität Berlin, 2012.
+
+## License
+
+MIT. See `LICENSE`.
+
+
 
 ## License
 
