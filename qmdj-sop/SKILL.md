@@ -1,7 +1,7 @@
 ---
 name: qmdj-sop
-description: Standardized Qi Men Dun Jia (奇门遁甲) workflow for question-time divination, event-time selection, chart verification, structured interpretation, uncertainty disclosure, and outcome calibration. Use when users ask to cast, verify, interpret, compare, or retrospectively evaluate a mainstream Shi Jia rotating-chart Qimen chart. Keep schools consistent, separate symbolic interpretation from facts, and prioritize real-world evidence for consequential decisions.
-version: 1.0.0
+description: Standardized Qi Men Dun Jia (奇门遁甲) workflow for narrowing broad future questions, question-time divination, event-time selection, chart verification, structured interpretation, uncertainty disclosure, and outcome calibration. Use when users ask broad fortune or future questions, or ask to cast, verify, interpret, compare, or retrospectively evaluate a mainstream Shi Jia rotating-chart Qimen chart. Reformulate unsuitable long-horizon questions into specific, time-bounded, decision-linked, observable questions before casting. Keep schools consistent, separate symbolic interpretation from facts, and prioritize real-world evidence for consequential decisions.
+version: 1.1.0
 
 ---
 
@@ -34,7 +34,44 @@ Treat a request for a **new or independent chart** as a clean event:
 
 Do not repeatedly recast the same unchanged question merely to seek a preferred answer. If the user asks again without a meaningful change, explain that repeated casting creates confirmation bias; offer a reality-based status review instead.
 
-### 2. Choose the casting mode
+### 2. Qualify and narrow the question
+
+Before casting, determine whether the request is suitable for this workflow. A useful Qimen question is:
+
+- **specific:** one situation, decision, event, or comparison;
+- **time-bounded:** an observable period or deadline;
+- **decision-linked:** the user can act, wait, compare, verify, or stop;
+- **observable:** the result can be checked against real-world evidence.
+
+Do not use one question-time chart to fabricate a reliable ten-year wealth, career, marriage, or life forecast. Do not silently mix Ba Zi, Zi Wei Dou Shu, astrology, or another destiny system into this Skill to answer a long-horizon question.
+
+When a request is too broad, ambiguous, or not falsifiable:
+
+1. identify the underlying concern or decision;
+2. propose two or three narrower formulations;
+3. give each formulation a practical time boundary and observable outcome;
+4. briefly explain why the narrower form is more useful;
+5. ask the user to select or refine one formulation before casting.
+
+Example:
+
+> Broad: “How will my wealth be over the next ten years?”
+>
+> Narrower options:
+> 1. “Should I pursue this specific income opportunity in the next 90 days, and what risks should I verify first?”
+> 2. “Which of these two career or investment options better supports my stated goal within the next six months?”
+> 3. “For the financial decision due on this date, what constraints and opportunities should I consider?”
+
+Do not require the user to know Qimen terminology. Collect only the minimum information needed:
+
+- the decision, event, or concern;
+- the observable outcome and time window;
+- known options, facts, and constraints;
+- location, timezone, and event time only when required by the casting mode.
+
+If the user provides enough information, proceed without unnecessary questioning. If a controlled choice between proposed formulations is possible, present it clearly rather than returning a generic refusal.
+
+### 3. Choose the casting mode
 
 Choose exactly one mode before calculating:
 
@@ -44,7 +81,7 @@ Choose exactly one mode before calculating:
 
 Never silently substitute event time for question time or vice versa.
 
-### 3. Lock the school and parameters
+### 4. Lock the school and parameters
 
 State:
 
@@ -57,7 +94,7 @@ State:
 
 If different tools use different conventions, do not merge their outputs. Resolve the convention mismatch first.
 
-### 4. Generate and independently verify the chart
+### 5. Generate and independently verify the chart
 
 Use a deterministic calculator or a reputable chart service. Then verify with an independent source using the **same timestamp, timezone, school, and Ju method**.
 
@@ -79,7 +116,7 @@ If any core field differs:
 
 If only optional annotations differ, disclose the difference and exclude those annotations from decisive reasoning.
 
-### 5. Select significators before interpretation
+### 6. Select significators before interpretation
 
 Use the smallest sufficient set. Prefer:
 
@@ -94,7 +131,7 @@ Use the smallest sufficient set. Prefer:
 
 Do not assign roles after seeing the chart. Do not assert that Yi always means one gender or Geng always means another. If role assignment is ambiguous, state two plausible readings and identify what real-world evidence would distinguish them.
 
-### 6. Interpret in a fixed order
+### 7. Interpret in a fixed order
 
 Read in this order:
 
@@ -118,7 +155,7 @@ Hard modifiers can overturn an otherwise favorable symbol:
 
 Do not use a rigid numerical score as a substitute for reasoning.
 
-### 7. Separate observation, symbolism, inference, and action
+### 8. Separate observation, symbolism, inference, and action
 
 Label the reasoning layers:
 
@@ -133,7 +170,7 @@ For interpersonal questions, observable reciprocity outranks chart symbolism. Li
 
 For product or organizational questions, user research, telemetry, technical assessment, privacy review, cost, ownership, and executive decision criteria outrank symbolic interpretation.
 
-### 8. Produce decision-useful guidance
+### 9. Produce decision-useful guidance
 
 Translate the reading into no more than three priority actions:
 
@@ -144,7 +181,7 @@ Translate the reading into no more than three priority actions:
 
 For high-stakes health, legal, financial, safety, or employment decisions, explicitly recommend qualified professional advice and use the chart only as a reflection prompt.
 
-### 9. Calibrate after the outcome
+### 10. Calibrate after the outcome
 
 When the user reports what happened:
 
@@ -169,4 +206,5 @@ Always include:
 6. **Traditional-practice disclaimer**.
 
 If verification fails, output only the parameters, mismatch table, and remediation steps. Do not interpret.
+
 
